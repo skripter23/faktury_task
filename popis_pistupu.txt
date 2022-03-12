@@ -1,0 +1,8 @@
+1. Nejprve jsem nainstaloval framework pro PHP tcpdf
+2. Obnovil příklad faktury metodami stejného tcpdf 
+3. s programem Open Server pro windovs jsem vytvořil jednoduchou databázi 
+založenou na Mysql 5.7 a pomocí phpMyAdmin jsem tam nalil data, která mi byla zaslána jako soubor excel
+4. Připojil jsem mysql k php a přinesl hodnoty z databáze do faktury
+5. Uložením vše do souboru pdf jsem soubor uložil pomocí " $ pdf->Output ("/priklad_soubor.pdf", 'F')
+6. Po vytvoření git repozitáře jsem tam nahrál své soubory.
+7. podrobnější informace pro vyvoj mám napsané ve formě komentářů ve zdrojovém kódu indexu.php
